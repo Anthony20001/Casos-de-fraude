@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Calibri', 'Courier', 'Helvetica', 'Arial';
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: #0B31A5;
+}
+a:hover{
+    color: #091742;;
+}
+a:active{
+    color: rgb(231, 5, 5);
+}
+.container{
+    margin: 0% 15% 0% 15%;
+}
+.container{
+    margin: 0% 8% 0% 8%;
+    justify-content: center;
+}
+

@@ -1,0 +1,33 @@
+.fila3{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px;
+    padding: 0px;
+    margin-top: 5%;
+}
+article{
+    display: flex;
+    width: 71%;
+    /*border: springgreen solid 2px;*/
+    padding: 0px;
+    margin: 0;
+}
+.informacion{
+    width: 85%;
+    font-size: 19px;
+}
+.creador{
+    font-size: 17px;
+}
+.informacion p{
+    text-align: justify;
+}
+.navegacion{
+    margin-top: 11%;
+    margin-left: 7%;
+    width: 10%;
+}
+.navegacion h4{
+    margin-left: 20%;   
+}
+

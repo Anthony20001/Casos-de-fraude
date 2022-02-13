@@ -1,0 +1,54 @@
+
+/* Estilos para agregar en JavaScript */
+.active{
+    transform: translate(-400px);
+    transition: all .5s ease;
+}
+
+/* Estilos para el contenedor del menu */
+.container-menu{
+    background-color: rgb(6, 42, 83);
+    box-shadow: 0.5px 12px 25px rgb(0, 0, 0);
+    width: 300px;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: all .5s ease;
+    padding: 50px 30px;
+    margin: 0;
+}
+
+.container-menu h2{
+    font-weight: 300;
+    font-size: 24px;
+}
+
+/* Estilo para el listado del menu */
+.container-menu ul{
+    list-style: none;
+    display: block;
+    padding-top: 10px;
+}
+
+.container-menu ul li{
+    color: rgb(185, 176, 176);
+    display: block;
+    font-size: 18px;
+    text-decoration: none;
+    cursor: pointer;
+    margin: 0;
+    font-weight: 300;
+    padding: 15px 5px;
+}
+
+.container-menu ul li span{
+   margin-left: 10px;
+}
+
+
+.container-menu ul li:hover{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.219);
+}
+

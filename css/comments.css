@@ -1,0 +1,78 @@
+.item{
+    box-shadow: 0px 0px 15px -8px black;
+    padding: 1px 20px;
+    width: 50%;
+}
+.comentarios{
+    /*border: darksalmon solid 2px;*/
+    margin-top: 5%;
+    width: 90%;
+    margin-bottom: 8%;
+}
+
+.comentarios h1{
+    font-weight: 300;
+}
+
+.comentarios h4{
+    font-weight: 500;
+    margin-bottom: 1%;
+    color: rgb(54, 54, 54);
+    margin-top: 0px;
+}
+
+.item input{
+    outline: none;
+    border: none;
+    border-bottom: rgb(233, 233, 233) solid 1px;
+    word-wrap:normal;
+    background-color: rgb(228, 228, 228);
+    padding: 16px;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+.comentarios .item{
+    padding: 18px;
+    display: block;
+}
+
+.comentarios button{
+    width: 100%;
+    color: white;
+    background-color: rgb(0, 66, 128);
+    padding: 7px;
+    border: none;
+    font-size: 15px;
+}
+
+.comentarios button:hover{
+    cursor: pointer;
+    background-color: rgb(8, 47, 83);
+}
+/*
+
+
+
+
+.btn-comment{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5%;
+    width: 100%;
+}
+.opciones1{
+    background-color: yellow;
+    width: 60%;
+}
+.opciones1 a{
+    margin-right: 19%;
+}
+.opciones2{
+    display: flex;
+    background-color: violet;
+    width: 40%;
+    justify-content: space-between;
+}
+*/

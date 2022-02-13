@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="../facebook.html">
+        <div class="item-form">
+            <label for="">Correo Electrónico</label>
+            <input type="email" required autofocus>
+        </div>
+        <div class="item-form">
+            <label for="">Contraseña</label>
+            <input type="password" required>
+            <p><a href="">¿Olvidaste tu contraseña?</a></p>
+        </div>
+        <button>Entrar</button>
+    </form>
+
+    <style>
+        body{
+            background-color: white;
+            margin: 0;
+            padding: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            justify-content: center;
+        }
+
+        form{
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            padding: 20px;
+            margin: auto;
+            background-color: white;
+            display: block;
+            width: 25%;
+            margin-top: 10%;
+            justify-content: center;
+        }
+
+        .item-form{
+            display: block;
+            margin-bottom: 30px;
+            width: 100%;
+            justify-content: center;
+        }
+
+        label{
+            font-size: 15px;
+            color: rgb(105, 105, 105);
+        }
+
+        input{
+            outline-style: none;
+            padding: 8px 15px;
+            border: solid rgb(212, 212, 212) 1px;
+            font-size: 14px;
+            width: 90%;
+            margin: auto;
+            margin-top: 10px;
+        }
+
+        input:focus{
+            border: solid slateblue 1px;
+        }
+
+        button{
+            width: 100%;
+            color: white;
+            background-color: rgb(93, 79, 185);
+            border: none;
+            padding: 10px 0px;
+            font-size: 15px;
+            font-weight: 600;
+        }
+
+        button:hover{
+            background-color:slateblue;
+            cursor: pointer;
+        }
+
+        a{
+            text-decoration: none;
+            font-size: 14px;
+            color: rgb(14, 93, 212);
+        }
+
+    </style>
+</body>
+</html>

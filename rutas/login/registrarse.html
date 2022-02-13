@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="../facebook.html">
+        <div class="item-form">
+            <input type="text" placeholder="Nombre" required autofocus>
+            <input type="text" placeholder="Apellido" required>
+        </div>
+        <div class="item-form">
+            <input type="email" placeholder="Correo electrónico" required>
+        </div>
+        <div class="item-form">
+            <input type="password" placeholder="Contraseña" required>
+        </div>
+        <div class="item-form">
+            <input type="password" placeholder="Repetir contraseña" required>
+        </div>
+        <div class="item-form">
+            <span>Fecha de nacimiento</span>
+            <input type="date" required>
+        </div>
+        <button>Registrase</button>
+        <a href="">Al hacer click acepta todos los téminos, condiciones y políticas del servicio</a>
+    </form>
+
+    <style>
+        body{
+            background-color: white;
+            margin: 0;
+            padding: 0;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        form{
+            background-color: white;
+            padding: 25px;
+            width: 27%;
+            margin: 0 auto;
+            margin-top: 9%;
+            display: block;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            box-sizing: border-box;
+        }
+
+        input{
+            width: 100%;
+            margin-bottom: 30px;
+            justify-content: space-between;
+        }
+
+        .item-form{
+            display: flex;
+            justify-content: space-between;
+        }
+
+        button{
+            width: 100%;
+            background-color: rgb(7, 55, 187);
+            color: whitesmoke;
+            border: none;
+            padding: 8px;
+            font-size: 17px;
+            font-weight: 500;
+            margin-bottom: 8px;
+        }
+
+        button:hover{
+            background-color:  rgb(8, 65, 221);
+            cursor: pointer;
+        }
+
+        a{
+            text-align: justify;
+            width: 100%;
+            text-decoration: none;
+            color: rgb(5, 79, 190);
+            margin-top: 5px;
+            font-size: 13px;
+        }
+
+        input{
+            padding: 8px 8px;
+            border: solid rgb(197, 197, 197) 1px;
+        }
+
+        input[type=date]{
+            width: 50%;
+            padding: 5px;
+        }
+
+
+        input[type=text]{
+            width: 42%;
+        }
+        
+
+        input:focus{
+            border: solid rgb(8, 65, 221) 1px;
+            outline-style: none;
+        }
+
+        span{
+            color: rgb(100, 100, 100);
+            font-size: 14px;
+        }
+    </style>
+</body>
+</html>
